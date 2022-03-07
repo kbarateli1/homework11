@@ -62,18 +62,22 @@
     color: white;
   }
   
-  
-  @media (max-width: 768px){
+
+@media (max-width: 768px){
     .text-wrapper h2 {
         font-size: 20px;
-      }
-      .text-wrapper h3,
-      .text-wrapper p {
+    }
+    .text-wrapper h3,
+    .text-wrapper p {
         font-size: 15px;
         line-height: 25px;
-      }
-      .tag-wrapper {
+    }
+    .tag-wrapper{
         grid-template-columns: 1fr;
         grid-column-gap: 0;
         grid-row-gap: 30px;
-      }
+    }
+}
+
+
+  
